@@ -1,0 +1,15 @@
+18943684,Hassya Santoso,2000-09-25,Main.St NY,3
+88586147,Kylian Mbappe,1994-05-96,Paris .ST PAR,4
+04148049,Shenny Laurencia,2000-09-30,Sagan St YK,4
+23361683,Eleanor Grievance,1998-07-07,Memorial.St LA,3
+52490307,Chicharito,2000-09-25,Guadalajara MX,1
+12345678,Akbar Rinaldi,1995-08-09,Semarang Jateng,2
+12108807,Muhammad Hassya,2000-09-25,Relay Rd NL,1
+40834618,David Setyadi,2000-07-06,Kaliurang St YK,3
+36583367,Ibnu Sina ,1995-07-23,Jl Jayadi SMG,3
+23293919,Fanny Mae ,2006-05-31,Polio St  ,3
+30810990,Spongebob Square,2009-06-07,Bikini Bottom,4
+68573964,Patrick Star,1998-09-02,Bikini Bottom,5
+59667286,Sandy Squirrel,1996-04-05,Bikini Bottom,3
+17864263,Plankton  ,1998-09-05,Chum Bucket,1
+07817520,Michael Jackson,2002-03-03,Kolona St WYO,1
