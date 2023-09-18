@@ -52,4 +52,4 @@ In summary, the code provides a console-based interface for managing debtor reco
 ```
 
 # Contribute
-If you'd like to contribute to IndoMarket Apps, check out https://github.com/hassyas/ACME_DebtorIDSystem.git, or feel free to contact me.
+If you'd like to contribute to ACME Debtor Identification System, check out https://github.com/hassyas/ACME_DebtorIDSystem.git, or feel free to contact me.
