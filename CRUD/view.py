@@ -63,6 +63,7 @@ def read_console():
 
     for index, data_line in enumerate(data_file, start=1):
         data_break = data_line.split(",")
+             
         cin = data_break[0]
         full_name = data_break[1]
         birth_date = data_break[2]

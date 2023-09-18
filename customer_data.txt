@@ -1,16 +1,15 @@
 18943684,George McIntosh,1987-12-08,Main.St NY,2
-88586147,Newell Power,1994-05-96,Liberty Ave NY,4
 04148049,Loki Lawell,2000-09-30,Queen.St GB,4
 23361683,Eleanor Grievance,1998-07-07,Memorial.St LA,3
-12345678,Akbar Rinaldi,1995-08-09,Semarang Jateng,2
-12108807,Muhammad Hassya,2000-09-25,adasjfa fasfas,1
-40834618,David Setyadi,2000-07-06,jillian av,1
-36583367,Ibnu Sina ,1995-07-23,Jl Jayadi SMG,1
-23293919,Fanny Mae ,2006-05-31,Polio St  ,3
-30810990,Spongebob Square,2009-06-07,Bikini Bottom,5
-98176723,Jane Juneheart,1058-12-09,Greyborough.ST OTW,3
-09843316,ass,1234-09-09,tysfjaf,1
-34911157,Kolongo Mani,1998-08-09,Hunter St,4
-05254030,afasfasg,1998-07-23,afasgaas,441527095,wewe,3333-33-33,ewtw,301788080,2r2r,4444-44-44,wew,3
-
-92034583,ef,5555-55-55,ew,480496553,22,4444-44-44,ww,395909682,ewfw,9999-99-77,wewe,2,
+12345678,Troye Fex,1995-08-09,Wander Blvd SA,2
+10710021,Katniss Everdeen,1945-09-16,District 8 NY,3
+61513587,David Segrous,1930-05-04,Weymar Av NVD,1
+60578844,Gunther Law,1967-04-03,Lyoll St NJ,4
+73660937,Rachel Kowell,1976-12-09,Gilliam Av IL,2
+41377860,Fred Powell,2001-12-12,Maine.Rd BC,1
+68004219,Alex Trent,2000-23-02,Grant.St MA,5
+92479599,Ryan Dick,1987-15-01,Relay.Rd YIA,1
+73660937,Rachel Kowell,1976-12-09,Gilliam Av IL,2
+28112152,Michael Jackson,2003-04-03,Polo St,3
+37682615,Chris Connors,2003-02-01,Lowell St,1
+43212472,Burak Yilmaz,1000-09-09,Otadoglu.St TUR,2

@@ -52,8 +52,10 @@ def write(Full_Name, Birth_Date, Address, Credit_Score):
    
     try:
         with open(database.DB_CUSTOMERS,"a",encoding="utf-8") as file:
+            if file.tell() != 0:
+                file.write("\n")
             file.write(data_str)
-    except:
+    except Exception as e:
         print("Failed to add data")
 
 def update(target_cin, full_name, birth_date, address, credit_score):
@@ -74,9 +76,8 @@ def update(target_cin, full_name, birth_date, address, credit_score):
                 data_break[3] = address
             if credit_score is not None:
                 data_break[4] = str(credit_score)
-            updated_data.append(",".join(data_break) + '\n')
-        else:
-            updated_data.append(",".join(data_break))
+            
+        updated_data.append(",".join(data_break))
 
     try:
         with open(database.DB_CUSTOMERS, "w", encoding="utf-8") as file:
