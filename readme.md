@@ -6,6 +6,19 @@ This is a Python-based Debtor Identification System known as "ACME Debtor Identi
     3. Update = Enables the user to update information of a specific primary key (CIN)
     4. Delete = Enables the user to delete debtor data based on a specific primary key (CIN)
 
+# Breakdown of Score Definition
+Credit score details based on BI Checking:
+
+Score 1: Smooth Credit, meaning the borrower always fulfills their obligation to pay installments every month along with interest until it's fully paid off without any delays.
+
+Score 2: DPK Credit or Credit under Special Attention, meaning the borrower is noted for delayed credit installment payments of 1-90 days.
+
+Score 3: Unsmooth Credit, meaning the borrower has recorded late payments of credit installments for 91-120 days.
+
+Score 4: Doubtful Credit, meaning the borrower has recorded late payments of credit installments for 121-180 days.
+
+Score 5: Bad Credit, meaning the borrower has recorded late payments of credit installments for more than 180 days
+
 # Summary of Code Flow 
 The uploaded code is a Python program for a Debtor Identification System. It allows users to manage debtor information through a console-based interface. Here's a summary of its flow:
 
@@ -34,6 +47,7 @@ In summary, the code provides a console-based interface for managing debtor reco
 │
 ├── CRUD               <- Folder which contains the various source codes for this project. 
 ├── main.py            <- Main file for code execution.
+├──_pycache_           <- `_pycache_` stores compiled bytecode for faster Python script execution.
 
 # Contribute
 If you'd like to contribute to IndoMarket Apps, check out https://github.com/hassyas/ACME_DebtorIDSystem.git, or feel free to contact me.

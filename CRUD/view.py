@@ -25,8 +25,11 @@ def create_console():
         
     while True:
         try:
-            credit_score = int(input("Credit Score:\t"))
-            break
+            credit_score = int(input("Credit Score (max 5):\t"))
+            if 1 <= credit_score <= 5:  # Check if the input is within the allowed range
+                break
+            else:
+                print("Credit Score must be between 1 and 5.")
         except ValueError:
             print("Credit Score must be an integer.")
 
@@ -195,11 +198,14 @@ def update_console():
     if "Credit Score" in columns_to_update:
         while True:
             try:
-                credit_score = int(input("Credit Score: "))
-                break
+                credit_score = int(input("Credit Score (max 5): "))
+                if 1 <= credit_score <= 5:  # Check if the input is within the allowed range
+                    break
+                else:
+                    print("Credit Score must be between 1 and 5.")
             except ValueError:
                 print("Credit Score must be an integer.")
-
+                
     # Check if "Credit Score" is not provided (empty input) and include the existing credit score
     if "Credit Score" not in columns_to_update and existing_credit_score:
         credit_score = existing_credit_score  # Use the existing Credit Score
