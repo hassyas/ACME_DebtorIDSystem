@@ -41,7 +41,7 @@ The uploaded code is a Python program for a Debtor Identification System. It all
 In summary, the code provides a console-based interface for managing debtor records, including reading, adding, updating, and deleting records, with clear screen functionality and a user-friendly menu system. It relies on the `CRUD` module for database operations.
 
 # File Directory
-$ tree
+```
 ├── readme.md          <- The top-level README for developers using this project.
 │
 ├── customer_data.txt  <- Customer database (CIN,Full Name,Birth Date, Address,Credit Score)
@@ -49,6 +49,7 @@ $ tree
 ├── CRUD               <- Folder which contains the various source codes for this project. 
 ├── main.py            <- Main file for code execution.
 ├──_pycache_           <- `_pycache_` stores compiled bytecode for faster Python script execution.
+```
 
 # Contribute
 If you'd like to contribute to IndoMarket Apps, check out https://github.com/hassyas/ACME_DebtorIDSystem.git, or feel free to contact me.
