@@ -1,7 +1,7 @@
 # Introduction of Code
 This is a Python-based Debtor Identification System known as "ACME Debtor Identification System." This system allows the user to operate the debtor information efficiently. It includes features for reading, adding, updating, and deleting debtor records in a database.
 
-    1. Read = Enables the user to read all contents of the database, search by maximum/minimum range of the scores.      or search based on primary key (CIN)
+    1. Read = Enables the user to read all contents of the database, search by maximum/minimum range of the scores or search based on primary key (CIN)
     2. Add/Create = Enables the user to add debtor information into the database
     3. Update = Enables the user to update information of a specific primary key (CIN)
     4. Delete = Enables the user to delete debtor data based on a specific primary key (CIN)
