@@ -44,8 +44,8 @@ def create_console():
 
     if confirmation == "yes":
         # Append the new debtor data to the customer_data.txt file
-        with open("customer_data.txt", "a",newline="\n") as file:
-            operations . write(full_name, birth_date, address, credit_score)
+        #with open("customer_data.txt", "a",newline="\n") as file:
+        operations.write(full_name, birth_date, address, credit_score)
         clear_screen()
         print("Debtor added to the database.")
         return

@@ -47,11 +47,11 @@ def write(Full_Name, Birth_Date, Address, Credit_Score):
     data["Address"] = Address + database.TEMPLATE["Address"][len(Address):]
     data[Credit_Score] = int(Credit_Score)
 
-    data_str = f'{data["Credit_Identification_Number"]},{data["Full_Name"]},{data["Birth_Date"]},{data["Address"]},{Credit_Score}\n'
+    data_str = f'{data["Credit_Identification_Number"]},{data["Full_Name"]},{data["Birth_Date"]},{data["Address"]},{Credit_Score}'
     print(data_str)
    
     try:
-        with open(database.DB_CUSTOMERS,"a",encoding="utf-8", newline="\n") as file:
+        with open(database.DB_CUSTOMERS,"a",encoding="utf-8") as file:
             file.write(data_str)
     except:
         print("Failed to add data")
@@ -74,11 +74,12 @@ def update(target_cin, full_name, birth_date, address, credit_score):
                 data_break[3] = address
             if credit_score is not None:
                 data_break[4] = str(credit_score)
-
-        updated_data.append(",".join(data_break))
+            updated_data.append(",".join(data_break) + '\n')
+        else:
+            updated_data.append(",".join(data_break))
 
     try:
-        with open(database.DB_CUSTOMERS, "w", encoding="utf-8", newline="\n") as file:
+        with open(database.DB_CUSTOMERS, "w", encoding="utf-8") as file:
             file.writelines(updated_data)
         print(f"Record with CIN {target_cin} updated in the database.")
     except Exception as e:

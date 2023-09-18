@@ -3,9 +3,9 @@ from . import operations
 DB_CUSTOMERS = "customer_data.txt"
 TEMPLATE = {
     "Customer_Identification_Number": "XXXXXXXX",
-    "Full_Name": 10*" ",
+    "Full_Name": "",
     "Birth_Date": "YYYY-MM-DD",
-    "Address": 10*" ",
+    "Address": "",
     "Credit_Score": "1-5"
 }
 
